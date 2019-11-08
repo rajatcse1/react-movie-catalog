@@ -25,15 +25,17 @@
 12. Thinking In React
 13. Accessibility
 14. Code-Splitting
-  - lazy loading of components
+  	- lazy loading of components in a page (except default one like error boundary)
+	- lazy load routes components
+	- reexport non named components for using lazy loading
 15. Context
 	- passing data from top most component to leaf label components
 17. Error Boundaries
-  - capture error and show fallback view
+  	- capture error and show fallback view
 18. Forwarding Refs
 	- on click of button in parent, child function to be invoked ( access of child function through ref) 
 19. Fragments
-  - grouping of childrent components without physical DOM
+  	- grouping of childrent components without physical DOM
 20. Higher-Order Components
 	-   showing a loader, while a component waits for data
 	-   Conditionally rendering components
@@ -45,15 +47,20 @@
 22. JSX In Depth
 23. Optimizing Performance
 24. Portals
-  - modal popup
+  	- modal popup
 25. Profiler
 26. React Without ES6
 27. React Without JSX
 28. Reconciliation
 29. Refs and the DOM
+	- focus input on load of component which contains input control
 30. Render Props
+	https://softchris.github.io/pages/react-render-props.html#render-props-explained
 31. Static Type Checking
 32. Strict Mode
 33. Typechecking With PropTypes
 34. Uncontrolled Components
 35. Web Components
+
+https://medium.com/simply/comparison-hocs-vs-render-props-vs-hooks-55f9ffcd5dc6
+
